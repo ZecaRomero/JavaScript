@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Logicos</title>
+
+    <script>
+
+      //  E (&&) verdadeiro se todas as expressoes forem verdadeiros
+      // OU (||) verdadeiro se pelo menos uma das expressoes for verdadeira
+      // Negação (!) Inverte o resultado da expressao de comparação.
+       
+
+      // true  && true = true
+      /* if(3 == 3 && 3 >= 1 && 'a' == 'b'){
+        document.write('Verdadeiro')
+      }
+      
+      else {
+        document.write('Falso')
+      }
+      */
+
+      var nota = prompt('Digite a nota do aluno: ')
+      var faltas = prompt('Digite a quantidade de faltas: ')
+
+      var media = 7
+      var faltas_maximas = 15
+
+     /* if (nota >= media && faltas <= faltas_maximas){
+        document.write ('Aluno APROVADO')
+
+      }
+
+      else {
+        document.write('Aluno REPROVADO')
+      }
+      */
+
+
+      //OPERADOR TERNÁRIO==> MAIS ENCHUTO ( RESUMIDO)
+      var resultado = (nota >= media && faltas <= faltas_maximas) ? 'APROVADO' : 'REPROVADO'
+
+    </script>
+</head>
+<body>
+
+    <h2>
+         E (&&) verdadeiro se todas as expressoes forem verdadeiros   <br><br>
+           OU (||) verdadeiro se pelo menos uma das expressoes for verdadeira<br><br>
+           Negação (!) Inverte o resultado da expressao de comparação.<br><br>
+        
+    </h2>
+</body>
