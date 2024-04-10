@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>IF E ELSE - OPERADORES</title>
+    <title> PRÁTICA - IF E ELSE - OPERADORES</title>
 
     <script>
 
@@ -14,12 +14,18 @@
 
         /** sempre se compara o valor da esquerda para direita */
 
-        if (15 >= 18) {
-            document.write('Entrou no bloco IF (verdadeiro)')            
+        var nota = prompt('Digite a nota do aluno: ')
+        var media = 7
+
+        if ( nota >= media) {
+
+            document.write('Aluno foi Aprovado') 
+            document.write('<br> <BR>"PARABENS, BELA NOTA" ')            
         }
 
         else {
-                document.write('Entrou no bloco ELSE (falso)')
+            document.write('Aluno foi Reprovado') 
+            document.write('<br> <br>"ESTUDE MAIS SEU ANDANTE" ') 
         }      
        
     </script>
